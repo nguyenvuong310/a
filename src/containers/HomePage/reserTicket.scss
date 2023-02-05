@@ -1,0 +1,62 @@
+.reser-ticket {
+  height: 100px;
+  margin: 0 252px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid gray;
+  .tb {
+    border: none;
+    height: 100%;
+    .quick-block_border {
+      padding: 20px;
+      /* text-align: center; */
+    }
+    .quick-block_border:not(:last-of-type) {
+      border-right: 2px solid #000;
+    }
+    .el-icon--revers {
+      background-color: #ffffff;
+      width: 1.2rem;
+      height: 1.2rem;
+      cursor: pointer;
+      position: absolute;
+
+      left: 431px;
+      transform: translate(385%, -144%);
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      vertical-align: baseline;
+    }
+    .quick-vale {
+      margin-top: 7px;
+    }
+    .quick-vale select {
+      height: 29px;
+    }
+    .quick-label {
+      font-family: "Muli", sans-serif;
+    }
+    .dte {
+      margin-top: 8px;
+    }
+    .btn {
+      background-color: gray;
+      font-family: Roboto;
+      color: #ffffff;
+      letter-spacing: 1.33px;
+      line-height: 21px;
+      text-transform: uppercase;
+      cursor: pointer;
+      height: 40px;
+      width: 100px;
+      margin-top: 20px;
+    }
+
+    // .btn:hover {
+    //   background-color: #fff;
+    //   color: blue;
+    // }
+  }
+}

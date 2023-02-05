@@ -1,0 +1,15 @@
+.payment-guide {
+  height: 120px;
+  background-color: gray;
+  top: 0;
+  position: sticky;
+  .payment-guide-container {
+    .pay {
+      padding: 10px 0;
+    }
+    .guide {
+      height: 100px;
+      background-color: red;
+    }
+  }
+}
