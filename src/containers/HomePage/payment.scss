@@ -1,15 +1,85 @@
 .payment-guide {
-  height: 120px;
-  background-color: gray;
-  top: 0;
-  position: sticky;
   .payment-guide-container {
     .pay {
       padding: 10px 0;
+      background-color: #5a627b;
+      top: 0;
+      position: sticky;
     }
-    .guide {
+    .banner-txt {
       height: 100px;
-      background-color: red;
+      background-image: url(../../assets/images/background_road.jpg);
+      .txt {
+        text-align: center;
+        padding-top: 25px;
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+      }
+    }
+    .bank {
+      height: 530px;
+      background-color: #f5f5f5;
+      padding: 0 138px;
+      .txt-bank {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+      .img-logo {
+        padding: 46px;
+        .a {
+          width: 166px;
+        }
+        .v {
+          height: 100px;
+          width: 174px;
+        }
+        &.vcb {
+          padding: 30px !important;
+        }
+      }
+    }
+    .momo {
+      height: 250px;
+      background-color: #eee;
+      padding: 0 138px;
+      .txt-momo {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+      .img-logo {
+        &.mm {
+          padding: 14px;
+        }
+        .m {
+          height: 150px;
+          width: 150px;
+        }
+      }
+      .txt-mm {
+        padding-top: 14px;
+      }
+    }
+    .zalo {
+      height: 250px;
+      background-color: #f5f5f5;
+      padding: 0 138px;
+      .txt-zalo {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 10px 0;
+      }
+      .img-logo {
+        &.zl {
+          padding: 14px;
+        }
+        .z {
+          height: 150px;
+          width: 150px;
+        }
+      }
     }
   }
 }

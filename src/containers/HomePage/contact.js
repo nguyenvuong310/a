@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 import "./aboutUs.scss"; // file scss chung cho section
 //
-
+import HomeFooter from "./HomeFooter";
 //
 
 class Contact extends Component {
@@ -12,6 +12,7 @@ class Contact extends Component {
     return (
       <div className="containerr">
         <div className="containerr-up"></div>
+        <HomeFooter />
       </div>
     );
   }

@@ -4,8 +4,7 @@ import { connect } from "react-redux";
 import HomeHeader from "./HomeHeader";
 import HomeFooter from "./HomeFooter";
 import SectionWhy from "./section/why";
-import SectionInfor from "./section/infor";
-
+import ZaloContact from "./zaloContact";
 import "./HomePage.scss"; // file scss chung cho section
 //
 
@@ -17,8 +16,8 @@ class HomePage extends Component {
       <div>
         <HomeHeader />
         <SectionWhy />
-        <SectionInfor />
-        <HomeFooter />
+        <ZaloContact />
+        {/* <HomeFooter /> */}
       </div>
     );
   }

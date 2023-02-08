@@ -5,3 +5,122 @@
     height: 600px;
   }
 }
+.aboutUs-header {
+  background-color: rgb(234, 237, 239);
+  text-align: center;
+  padding: 50px 0;
+}
+
+.aboutUs-header h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  padding: 20px 0;
+  color: green;
+}
+
+.aboutUs-header p {
+  font-size: 20px;
+  font-style: italic;
+  opacity: 0.6;
+  padding-bottom: 15px;
+}
+
+.aboutUs-information {
+  background-color: #a4d7ef;
+}
+
+.aboutUs-information > p {
+  padding: 50px 25px;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 50px 200px;
+}
+
+.aboutUs-information > img {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUs-information-description {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutUs-information-description img {
+  width: 70px;
+  margin-right: 15px;
+}
+
+.aboutUs-information-description span {
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.aboutUs-information h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ca481f;
+}
+
+.aboutUs-information .sub-information {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 30px 300px;
+}
+
+.aboutUs-member {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 20px 100px;
+}
+.aboutUs-member li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid orange;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: #ccc;
+}
+
+.aboutUs-member li + li {
+  margin-left: 10px;
+}
+.aboutUs-member li img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.aboutUs-member .member-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(207, 11, 87);
+  margin-bottom: 15px;
+}
+
+.aboutUs-member .member-position {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.fab {
+  font-size: 40px;
+  margin-bottom: 15px;
+}

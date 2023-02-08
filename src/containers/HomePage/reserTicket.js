@@ -172,7 +172,7 @@ class ReserTicket extends Component {
           <div className="col-md-2 quick-block_border">
             <div>
               <input type="checkbox" name="vehicle1" />
-              <label className="quick-label">Khứ hồi </label>
+              <label className="quick-label khu-hoi">Khứ hồi </label>
               <br />
             </div>
             <div>
@@ -181,9 +181,9 @@ class ReserTicket extends Component {
               </form>
             </div>
           </div>
-          <div className="col-md-2 quick-block_border">
-            <div>
-              <button className="btn">Tìm kiếm</button>
+          <div className="col-md-2 row m-0 align-items-center justify-content-center">
+            <div className>
+              <button class="btn btn-block quick-book__button">Tìm kiếm</button>
             </div>
           </div>
         </div>

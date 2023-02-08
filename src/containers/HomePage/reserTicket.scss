@@ -37,6 +37,9 @@
     }
     .quick-label {
       font-family: "Muli", sans-serif;
+      &.khu-hoi {
+        margin-bottom: 8px;
+      }
     }
     .dte {
       margin-top: 8px;
@@ -52,6 +55,13 @@
       height: 40px;
       width: 100px;
       margin-top: 20px;
+      background-color: cyan;
+      margin-left: 12px;
+      color: #000;
+      &:hover {
+        color: #fff;
+        background-color: #000;
+      }
     }
 
     // .btn:hover {

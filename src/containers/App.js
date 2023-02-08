@@ -11,7 +11,7 @@ import Home from "../routes/Home";
 // import Login from '../routes/Login';
 
 import Header from "./Header/Header";
-
+import HomeFooter from "./HomePage/HomeFooter";
 import { CustomToastCloseButton } from "../components/CustomToast";
 import ConfirmModal from "../components/ConfirmModal";
 import HomePage from "./HomePage/HomePage.js";
@@ -20,6 +20,7 @@ import Payment from "./HomePage/payment";
 import News from "./HomePage/news";
 import Feedback from "./HomePage/feedback";
 import Contact from "./HomePage/contact";
+import ZaloContact from "./HomePage/zaloContact";
 import CustomScrollbars from "../components/CustomScrollbars";
 class App extends Component {
   handlePersistorState = () => {
@@ -57,6 +58,8 @@ class App extends Component {
                   <Route path={path.FEEDBACK} component={Feedback} />
                   <Route path={path.CONTACT} component={Contact} />
                 </Switch>
+                <HomeFooter />
+                <ZaloContact />
               </CustomScrollbars>
             </div>
 
